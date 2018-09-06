@@ -15,6 +15,10 @@
 		CD6A0F0821414CD700A005F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F0721414CD700A005F5 /* main.m */; };
 		CD6A0F1221414CD800A005F5 /* Map_wms_DrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F1121414CD800A005F5 /* Map_wms_DrawTests.m */; };
 		CD6A0F1D21414CD800A005F5 /* Map_wms_DrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F1C21414CD800A005F5 /* Map_wms_DrawUITests.m */; };
+		CD6A0F2C2141517A00A005F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F2B2141517A00A005F5 /* ViewController.m */; };
+		CD6A0F312141520D00A005F5 /* myButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F302141520D00A005F5 /* myButton.m */; };
+		CD6A0F342141530700A005F5 /* DrawTheTrajectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F332141530700A005F5 /* DrawTheTrajectoryViewController.m */; };
+		CD6A0F372141544B00A005F5 /* GetUrlSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F352141544B00A005F5 /* GetUrlSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,14 @@
 		CD6A0F1821414CD800A005F5 /* Map-wms-DrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map-wms-DrawUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6A0F1C21414CD800A005F5 /* Map_wms_DrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map_wms_DrawUITests.m; sourceTree = "<group>"; };
 		CD6A0F1E21414CD800A005F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6A0F2A2141517A00A005F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD6A0F2B2141517A00A005F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD6A0F2F2141520D00A005F5 /* myButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myButton.h; sourceTree = "<group>"; };
+		CD6A0F302141520D00A005F5 /* myButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myButton.m; sourceTree = "<group>"; };
+		CD6A0F322141530700A005F5 /* DrawTheTrajectoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawTheTrajectoryViewController.h; sourceTree = "<group>"; };
+		CD6A0F332141530700A005F5 /* DrawTheTrajectoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawTheTrajectoryViewController.m; sourceTree = "<group>"; };
+		CD6A0F352141544B00A005F5 /* GetUrlSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUrlSession.m; sourceTree = "<group>"; };
+		CD6A0F362141544B00A005F5 /* GetUrlSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUrlSession.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +125,12 @@
 		CD6A0EF721414CD600A005F5 /* Map-wms-Draw */ = {
 			isa = PBXGroup;
 			children = (
+				CD6A0F2D2141518500A005F5 /* DrawTheTrajectory */,
+				CD6A0F2E214151E500A005F5 /* tools */,
 				CD6A0EF821414CD600A005F5 /* AppDelegate.h */,
 				CD6A0EF921414CD600A005F5 /* AppDelegate.m */,
+				CD6A0F2A2141517A00A005F5 /* ViewController.h */,
+				CD6A0F2B2141517A00A005F5 /* ViewController.m */,
 				CD6A0EFE21414CD600A005F5 /* Main.storyboard */,
 				CD6A0F0121414CD700A005F5 /* Assets.xcassets */,
 				CD6A0F0321414CD700A005F5 /* LaunchScreen.storyboard */,
@@ -140,6 +156,26 @@
 				CD6A0F1E21414CD800A005F5 /* Info.plist */,
 			);
 			path = "Map-wms-DrawUITests";
+			sourceTree = "<group>";
+		};
+		CD6A0F2D2141518500A005F5 /* DrawTheTrajectory */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0F322141530700A005F5 /* DrawTheTrajectoryViewController.h */,
+				CD6A0F332141530700A005F5 /* DrawTheTrajectoryViewController.m */,
+			);
+			path = DrawTheTrajectory;
+			sourceTree = "<group>";
+		};
+		CD6A0F2E214151E500A005F5 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0F2F2141520D00A005F5 /* myButton.h */,
+				CD6A0F302141520D00A005F5 /* myButton.m */,
+				CD6A0F362141544B00A005F5 /* GetUrlSession.h */,
+				CD6A0F352141544B00A005F5 /* GetUrlSession.m */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 		E528F9500DC7E952B9DF881A /* Pods */ = {
@@ -324,8 +360,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6A0F342141530700A005F5 /* DrawTheTrajectoryViewController.m in Sources */,
+				CD6A0F372141544B00A005F5 /* GetUrlSession.m in Sources */,
+				CD6A0F2C2141517A00A005F5 /* ViewController.m in Sources */,
 				CD6A0F0821414CD700A005F5 /* main.m in Sources */,
 				CD6A0EFA21414CD600A005F5 /* AppDelegate.m in Sources */,
+				CD6A0F312141520D00A005F5 /* myButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

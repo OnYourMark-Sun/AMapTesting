@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#define mapKey @"52603654f3d96aa0b0f12b5d0bb81edb"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    UINavigationController *home = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+    self.window.rootViewController = home;
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+#pragma mark    地图的key
+    [AMapServices sharedServices].apiKey = mapKey;
     return YES;
 }
 
