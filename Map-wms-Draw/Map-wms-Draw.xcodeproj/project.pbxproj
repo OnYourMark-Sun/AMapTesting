@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A728CA2332D33635873361D5 /* libPods-Map-wms-Draw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F7C2F1EED076B2EDE134C6 /* libPods-Map-wms-Draw.a */; };
+		CD6A0EFA21414CD600A005F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0EF921414CD600A005F5 /* AppDelegate.m */; };
+		CD6A0F0021414CD600A005F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0EFE21414CD600A005F5 /* Main.storyboard */; };
+		CD6A0F0221414CD700A005F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0F0121414CD700A005F5 /* Assets.xcassets */; };
+		CD6A0F0521414CD700A005F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0F0321414CD700A005F5 /* LaunchScreen.storyboard */; };
+		CD6A0F0821414CD700A005F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F0721414CD700A005F5 /* main.m */; };
+		CD6A0F1221414CD800A005F5 /* Map_wms_DrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F1121414CD800A005F5 /* Map_wms_DrawTests.m */; };
+		CD6A0F1D21414CD800A005F5 /* Map_wms_DrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0F1C21414CD800A005F5 /* Map_wms_DrawUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6A0F0E21414CD800A005F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6A0EED21414CD600A005F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6A0EF421414CD600A005F5;
+			remoteInfo = "Map-wms-Draw";
+		};
+		CD6A0F1921414CD800A005F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6A0EED21414CD600A005F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6A0EF421414CD600A005F5;
+			remoteInfo = "Map-wms-Draw";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78DFBEE30026C70A609A919C /* Pods-Map-wms-Draw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Map-wms-Draw.release.xcconfig"; path = "Pods/Target Support Files/Pods-Map-wms-Draw/Pods-Map-wms-Draw.release.xcconfig"; sourceTree = "<group>"; };
+		A72131C878E4A1B33C015DC1 /* Pods-Map-wms-Draw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Map-wms-Draw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Map-wms-Draw/Pods-Map-wms-Draw.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F7C2F1EED076B2EDE134C6 /* libPods-Map-wms-Draw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Map-wms-Draw.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A0EF521414CD600A005F5 /* Map-wms-Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map-wms-Draw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A0EF821414CD600A005F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD6A0EF921414CD600A005F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD6A0EFF21414CD600A005F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6A0F0121414CD700A005F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6A0F0421414CD700A005F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6A0F0621414CD700A005F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6A0F0721414CD700A005F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6A0F0D21414CD800A005F5 /* Map-wms-DrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map-wms-DrawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A0F1121414CD800A005F5 /* Map_wms_DrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map_wms_DrawTests.m; sourceTree = "<group>"; };
+		CD6A0F1321414CD800A005F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6A0F1821414CD800A005F5 /* Map-wms-DrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map-wms-DrawUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A0F1C21414CD800A005F5 /* Map_wms_DrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map_wms_DrawUITests.m; sourceTree = "<group>"; };
+		CD6A0F1E21414CD800A005F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6A0EF221414CD600A005F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A728CA2332D33635873361D5 /* libPods-Map-wms-Draw.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A0F0A21414CD800A005F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A0F1521414CD800A005F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88FF674EF364E53CC97ADC40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4F7C2F1EED076B2EDE134C6 /* libPods-Map-wms-Draw.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6A0EEC21414CD600A005F5 = {
+			isa = PBXGroup;
+			children = (
+				CD6A0EF721414CD600A005F5 /* Map-wms-Draw */,
+				CD6A0F1021414CD800A005F5 /* Map-wms-DrawTests */,
+				CD6A0F1B21414CD800A005F5 /* Map-wms-DrawUITests */,
+				CD6A0EF621414CD600A005F5 /* Products */,
+				E528F9500DC7E952B9DF881A /* Pods */,
+				88FF674EF364E53CC97ADC40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6A0EF621414CD600A005F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0EF521414CD600A005F5 /* Map-wms-Draw.app */,
+				CD6A0F0D21414CD800A005F5 /* Map-wms-DrawTests.xctest */,
+				CD6A0F1821414CD800A005F5 /* Map-wms-DrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6A0EF721414CD600A005F5 /* Map-wms-Draw */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0EF821414CD600A005F5 /* AppDelegate.h */,
+				CD6A0EF921414CD600A005F5 /* AppDelegate.m */,
+				CD6A0EFE21414CD600A005F5 /* Main.storyboard */,
+				CD6A0F0121414CD700A005F5 /* Assets.xcassets */,
+				CD6A0F0321414CD700A005F5 /* LaunchScreen.storyboard */,
+				CD6A0F0621414CD700A005F5 /* Info.plist */,
+				CD6A0F0721414CD700A005F5 /* main.m */,
+			);
+			path = "Map-wms-Draw";
+			sourceTree = "<group>";
+		};
+		CD6A0F1021414CD800A005F5 /* Map-wms-DrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0F1121414CD800A005F5 /* Map_wms_DrawTests.m */,
+				CD6A0F1321414CD800A005F5 /* Info.plist */,
+			);
+			path = "Map-wms-DrawTests";
+			sourceTree = "<group>";
+		};
+		CD6A0F1B21414CD800A005F5 /* Map-wms-DrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0F1C21414CD800A005F5 /* Map_wms_DrawUITests.m */,
+				CD6A0F1E21414CD800A005F5 /* Info.plist */,
+			);
+			path = "Map-wms-DrawUITests";
+			sourceTree = "<group>";
+		};
+		E528F9500DC7E952B9DF881A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A72131C878E4A1B33C015DC1 /* Pods-Map-wms-Draw.debug.xcconfig */,
+				78DFBEE30026C70A609A919C /* Pods-Map-wms-Draw.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6A0EF421414CD600A005F5 /* Map-wms-Draw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6A0F2121414CD800A005F5 /* Build configuration list for PBXNativeTarget "Map-wms-Draw" */;
+			buildPhases = (
+				154ED489D63E7AF749CCFBEC /* [CP] Check Pods Manifest.lock */,
+				CD6A0EF121414CD600A005F5 /* Sources */,
+				CD6A0EF221414CD600A005F5 /* Frameworks */,
+				CD6A0EF321414CD600A005F5 /* Resources */,
+				D08F028265B5C8B4EDDEC85D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Map-wms-Draw";
+			productName = "Map-wms-Draw";
+			productReference = CD6A0EF521414CD600A005F5 /* Map-wms-Draw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6A0F0C21414CD800A005F5 /* Map-wms-DrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6A0F2421414CD800A005F5 /* Build configuration list for PBXNativeTarget "Map-wms-DrawTests" */;
+			buildPhases = (
+				CD6A0F0921414CD800A005F5 /* Sources */,
+				CD6A0F0A21414CD800A005F5 /* Frameworks */,
+				CD6A0F0B21414CD800A005F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6A0F0F21414CD800A005F5 /* PBXTargetDependency */,
+			);
+			name = "Map-wms-DrawTests";
+			productName = "Map-wms-DrawTests";
+			productReference = CD6A0F0D21414CD800A005F5 /* Map-wms-DrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6A0F1721414CD800A005F5 /* Map-wms-DrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6A0F2721414CD800A005F5 /* Build configuration list for PBXNativeTarget "Map-wms-DrawUITests" */;
+			buildPhases = (
+				CD6A0F1421414CD800A005F5 /* Sources */,
+				CD6A0F1521414CD800A005F5 /* Frameworks */,
+				CD6A0F1621414CD800A005F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6A0F1A21414CD800A005F5 /* PBXTargetDependency */,
+			);
+			name = "Map-wms-DrawUITests";
+			productName = "Map-wms-DrawUITests";
+			productReference = CD6A0F1821414CD800A005F5 /* Map-wms-DrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6A0EED21414CD600A005F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xujiahui;
+				TargetAttributes = {
+					CD6A0EF421414CD600A005F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CD6A0F0C21414CD800A005F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CD6A0EF421414CD600A005F5;
+					};
+					CD6A0F1721414CD800A005F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CD6A0EF421414CD600A005F5;
+					};
+				};
+			};
+			buildConfigurationList = CD6A0EF021414CD600A005F5 /* Build configuration list for PBXProject "Map-wms-Draw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6A0EEC21414CD600A005F5;
+			productRefGroup = CD6A0EF621414CD600A005F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6A0EF421414CD600A005F5 /* Map-wms-Draw */,
+				CD6A0F0C21414CD800A005F5 /* Map-wms-DrawTests */,
+				CD6A0F1721414CD800A005F5 /* Map-wms-DrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6A0EF321414CD600A005F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A0F0521414CD700A005F5 /* LaunchScreen.storyboard in Resources */,
+				CD6A0F0221414CD700A005F5 /* Assets.xcassets in Resources */,
+				CD6A0F0021414CD600A005F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A0F0B21414CD800A005F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A0F1621414CD800A005F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		154ED489D63E7AF749CCFBEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Map-wms-Draw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08F028265B5C8B4EDDEC85D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Map-wms-Draw/Pods-Map-wms-Draw-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Map-wms-Draw/Pods-Map-wms-Draw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6A0EF121414CD600A005F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A0F0821414CD700A005F5 /* main.m in Sources */,
+				CD6A0EFA21414CD600A005F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A0F0921414CD800A005F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A0F1221414CD800A005F5 /* Map_wms_DrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A0F1421414CD800A005F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A0F1D21414CD800A005F5 /* Map_wms_DrawUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6A0F0F21414CD800A005F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6A0EF421414CD600A005F5 /* Map-wms-Draw */;
+			targetProxy = CD6A0F0E21414CD800A005F5 /* PBXContainerItemProxy */;
+		};
+		CD6A0F1A21414CD800A005F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6A0EF421414CD600A005F5 /* Map-wms-Draw */;
+			targetProxy = CD6A0F1921414CD800A005F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6A0EFE21414CD600A005F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6A0EFF21414CD600A005F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6A0F0321414CD700A005F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6A0F0421414CD700A005F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6A0F1F21414CD800A005F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD6A0F2021414CD800A005F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6A0F2221414CD800A005F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72131C878E4A1B33C015DC1 /* Pods-Map-wms-Draw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = "Map-wms-Draw/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.Map-wms-Draw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6A0F2321414CD800A005F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78DFBEE30026C70A609A919C /* Pods-Map-wms-Draw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = "Map-wms-Draw/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.Map-wms-Draw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD6A0F2521414CD800A005F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = "Map-wms-DrawTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.Map-wms-DrawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map-wms-Draw.app/Map-wms-Draw";
+			};
+			name = Debug;
+		};
+		CD6A0F2621414CD800A005F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = "Map-wms-DrawTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.Map-wms-DrawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map-wms-Draw.app/Map-wms-Draw";
+			};
+			name = Release;
+		};
+		CD6A0F2821414CD800A005F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = "Map-wms-DrawUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.Map-wms-DrawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Map-wms-Draw";
+			};
+			name = Debug;
+		};
+		CD6A0F2921414CD800A005F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				INFOPLIST_FILE = "Map-wms-DrawUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.Map-wms-DrawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Map-wms-Draw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6A0EF021414CD600A005F5 /* Build configuration list for PBXProject "Map-wms-Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A0F1F21414CD800A005F5 /* Debug */,
+				CD6A0F2021414CD800A005F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6A0F2121414CD800A005F5 /* Build configuration list for PBXNativeTarget "Map-wms-Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A0F2221414CD800A005F5 /* Debug */,
+				CD6A0F2321414CD800A005F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6A0F2421414CD800A005F5 /* Build configuration list for PBXNativeTarget "Map-wms-DrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A0F2521414CD800A005F5 /* Debug */,
+				CD6A0F2621414CD800A005F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6A0F2721414CD800A005F5 /* Build configuration list for PBXNativeTarget "Map-wms-DrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A0F2821414CD800A005F5 /* Debug */,
+				CD6A0F2921414CD800A005F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6A0EED21414CD600A005F5 /* Project object */;
+}
