@@ -10,7 +10,7 @@
 #import <MAMapKit/MAMapKit.h>
 #import "GetUrlSession.h"
 #define huizhiTimes 0.03
-
+#import "aesTools.h"
 #define WeakSelf  __weak typeof(self) weakSelf = self
 @interface DrawTheTrajectoryViewController ()<MAMapViewDelegate>
 {
@@ -18,6 +18,8 @@
     NSInteger huizhiNum;
     MAPolyline *commonPolyline;
     BOOL endHuizhi;
+    
+    NSString * string2;
 }
 ////////划线
 ///显示是个点
@@ -32,6 +34,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    /////////--------------没有密💊 请自行找数据 -------//////////////
+    // 解析plist 获取Url
+    NSDictionary *dataDict = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"urldata" ofType:@"plist"]];
+    //获取data 进行解密
+    string2 = [aesTools AESToString:dataDict[@"URLDraw"]];
+    //---------------------------------------------------------------------------------
+    
+    
     // Do any additional setup after loading the view.
     
     //   加载地图
@@ -51,7 +61,7 @@
     self.mapViewhome.showsCompass= NO; // 设置成NO表示关闭指南针；YES表示显示指南针
     ///如果您需要进入地图就显示定位小蓝点，则需要下面两行代码
     self.mapViewhome.showsUserLocation = NO;
-    [self.mapViewhome setZoomLevel:18 animated:YES];
+    [self.mapViewhome setZoomLevel:12 animated:YES];
     self.mapViewhome.userTrackingMode = MAUserTrackingModeFollow;
     self.mapViewhome.delegate =self;
     ///地图需要v4.5.0及以上版本才必须要打开此选项（v4.5.0以下版本，需要手动配置info.plist）
@@ -70,7 +80,7 @@
     _TenPointArray = [NSMutableArray array];
     WeakSelf;
     //4257
-    [GetUrlSession connetion:@"http://m.airspace.cn/api/airmonitor/flightrecord/getTrailByIndexByFlightNumber?flightNumber=11801044-419&startIndex=2000&endIndex=3500" isAlert:NO success:^(NSDictionary *dic) {
+    [GetUrlSession connetion:string2 isAlert:NO success:^(NSDictionary *dic) {
         
         NSDictionary * dic1 = dic[@"data"];
         NSArray * array1 = dic1[@"flightDetails"];

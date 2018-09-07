@@ -4,12 +4,13 @@
 //
 //  Created by 徐士友 on 2018/9/6.
 //  Copyright © 2018年 xujiahui. All rights reserved.
-//
+
+//ka1k2A2k3eke-13
 
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import <AMapFoundationKit/AMapFoundationKit.h>
-#define mapKey @"52603654f3d96aa0b0f12b5d0bb81edb"
+#define mapKey @"00c99fe7e4c641c3783abc936f7b3d5d"
 
 @interface AppDelegate ()
 

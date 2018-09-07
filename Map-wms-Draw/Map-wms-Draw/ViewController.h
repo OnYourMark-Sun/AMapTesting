@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+///首页的选项卡View
+@property(nonatomic,strong) UIView * RootNavView ;
 @end

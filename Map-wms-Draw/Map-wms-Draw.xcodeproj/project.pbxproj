@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A728CA2332D33635873361D5 /* libPods-Map-wms-Draw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F7C2F1EED076B2EDE134C6 /* libPods-Map-wms-Draw.a */; };
+		CD0E2A8D214276E4001BC07A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0E2A8C214276E4001BC07A /* libiconv.tbd */; };
+		CD0E2A93214279E9001BC07A /* urldata.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD0E2A92214279E9001BC07A /* urldata.plist */; };
+		CD31999B214210CA005BA873 /* WMS_testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31999A214210CA005BA873 /* WMS_testViewController.m */; };
+		CD31999F2142173B005BA873 /* WMSTileOverlayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31999D2142173B005BA873 /* WMSTileOverlayUtil.m */; };
+		CD3199B121421E32005BA873 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3199A321421E32005BA873 /* NSString+Base64.m */; };
+		CD3199B221421E32005BA873 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3199A421421E32005BA873 /* AESCrypt.m */; };
+		CD3199B321421E32005BA873 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3199A921421E32005BA873 /* NSData+AES.m */; };
+		CD3199B421421E32005BA873 /* CusMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3199AA21421E32005BA873 /* CusMD5.m */; };
+		CD3199B521421E32005BA873 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3199AE21421E32005BA873 /* GTMBase64.m */; };
+		CD3199B621421E32005BA873 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3199AF21421E32005BA873 /* NSData+CommonCrypto.m */; };
+		CD3199B721421E32005BA873 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3199B021421E32005BA873 /* NSData+Base64.m */; };
+		CD3199BA21421E79005BA873 /* aesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3199B921421E79005BA873 /* aesTools.m */; };
 		CD6A0EFA21414CD600A005F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A0EF921414CD600A005F5 /* AppDelegate.m */; };
 		CD6A0F0021414CD600A005F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0EFE21414CD600A005F5 /* Main.storyboard */; };
 		CD6A0F0221414CD700A005F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6A0F0121414CD700A005F5 /* Assets.xcassets */; };
@@ -42,6 +54,30 @@
 		78DFBEE30026C70A609A919C /* Pods-Map-wms-Draw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Map-wms-Draw.release.xcconfig"; path = "Pods/Target Support Files/Pods-Map-wms-Draw/Pods-Map-wms-Draw.release.xcconfig"; sourceTree = "<group>"; };
 		A72131C878E4A1B33C015DC1 /* Pods-Map-wms-Draw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Map-wms-Draw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Map-wms-Draw/Pods-Map-wms-Draw.debug.xcconfig"; sourceTree = "<group>"; };
 		C4F7C2F1EED076B2EDE134C6 /* libPods-Map-wms-Draw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Map-wms-Draw.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0E2A8C214276E4001BC07A /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		CD0E2A92214279E9001BC07A /* urldata.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = urldata.plist; sourceTree = "<group>"; };
+		CD0E2A9421427C63001BC07A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CD319999214210CA005BA873 /* WMS_testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMS_testViewController.h; sourceTree = "<group>"; };
+		CD31999A214210CA005BA873 /* WMS_testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMS_testViewController.m; sourceTree = "<group>"; };
+		CD31999D2142173B005BA873 /* WMSTileOverlayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSTileOverlayUtil.m; sourceTree = "<group>"; };
+		CD31999E2142173B005BA873 /* WMSTileOverlayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSTileOverlayUtil.h; sourceTree = "<group>"; };
+		CD3199A221421E32005BA873 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		CD3199A321421E32005BA873 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		CD3199A421421E32005BA873 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		CD3199A521421E32005BA873 /* CusMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusMD5.h; sourceTree = "<group>"; };
+		CD3199A621421E32005BA873 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		CD3199A721421E32005BA873 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		CD3199A821421E32005BA873 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		CD3199A921421E32005BA873 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		CD3199AA21421E32005BA873 /* CusMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusMD5.m; sourceTree = "<group>"; };
+		CD3199AB21421E32005BA873 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		CD3199AC21421E32005BA873 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		CD3199AD21421E32005BA873 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		CD3199AE21421E32005BA873 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		CD3199AF21421E32005BA873 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		CD3199B021421E32005BA873 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		CD3199B821421E79005BA873 /* aesTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aesTools.h; sourceTree = "<group>"; };
+		CD3199B921421E79005BA873 /* aesTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aesTools.m; sourceTree = "<group>"; };
 		CD6A0EF521414CD600A005F5 /* Map-wms-Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map-wms-Draw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6A0EF821414CD600A005F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD6A0EF921414CD600A005F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0E2A8D214276E4001BC07A /* libiconv.tbd in Frameworks */,
 				A728CA2332D33635873361D5 /* libPods-Map-wms-Draw.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,9 +132,54 @@
 		88FF674EF364E53CC97ADC40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD0E2A8C214276E4001BC07A /* libiconv.tbd */,
 				C4F7C2F1EED076B2EDE134C6 /* libPods-Map-wms-Draw.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD319998214210A1005BA873 /* WMS_服务应用 */ = {
+			isa = PBXGroup;
+			children = (
+				CD319999214210CA005BA873 /* WMS_testViewController.h */,
+				CD31999A214210CA005BA873 /* WMS_testViewController.m */,
+				CD31999E2142173B005BA873 /* WMSTileOverlayUtil.h */,
+				CD31999D2142173B005BA873 /* WMSTileOverlayUtil.m */,
+			);
+			path = "WMS_服务应用";
+			sourceTree = "<group>";
+		};
+		CD31999C2142111E005BA873 /* overall */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A0F2F2141520D00A005F5 /* myButton.h */,
+				CD6A0F302141520D00A005F5 /* myButton.m */,
+				CD6A0F362141544B00A005F5 /* GetUrlSession.h */,
+				CD6A0F352141544B00A005F5 /* GetUrlSession.m */,
+			);
+			path = overall;
+			sourceTree = "<group>";
+		};
+		CD3199A121421E32005BA873 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				CD3199A221421E32005BA873 /* NSData+AES.h */,
+				CD3199A321421E32005BA873 /* NSString+Base64.m */,
+				CD3199A421421E32005BA873 /* AESCrypt.m */,
+				CD3199A521421E32005BA873 /* CusMD5.h */,
+				CD3199A621421E32005BA873 /* GTMBase64.h */,
+				CD3199A721421E32005BA873 /* NSData+Base64.h */,
+				CD3199A821421E32005BA873 /* NSData+CommonCrypto.h */,
+				CD3199A921421E32005BA873 /* NSData+AES.m */,
+				CD3199AA21421E32005BA873 /* CusMD5.m */,
+				CD3199AB21421E32005BA873 /* AESCrypt.h */,
+				CD3199AC21421E32005BA873 /* NSString+Base64.h */,
+				CD3199AD21421E32005BA873 /* GTMDefines.h */,
+				CD3199AE21421E32005BA873 /* GTMBase64.m */,
+				CD3199AF21421E32005BA873 /* NSData+CommonCrypto.m */,
+				CD3199B021421E32005BA873 /* NSData+Base64.m */,
+			);
+			path = aes;
 			sourceTree = "<group>";
 		};
 		CD6A0EEC21414CD600A005F5 = {
@@ -125,12 +207,14 @@
 		CD6A0EF721414CD600A005F5 /* Map-wms-Draw */ = {
 			isa = PBXGroup;
 			children = (
-				CD6A0F2D2141518500A005F5 /* DrawTheTrajectory */,
-				CD6A0F2E214151E500A005F5 /* tools */,
+				CD319998214210A1005BA873 /* WMS_服务应用 */,
+				CD6A0F2D2141518500A005F5 /* 根据坐标绘制轨迹 */,
+				CD6A0F2E214151E500A005F5 /* Resouce */,
 				CD6A0EF821414CD600A005F5 /* AppDelegate.h */,
 				CD6A0EF921414CD600A005F5 /* AppDelegate.m */,
 				CD6A0F2A2141517A00A005F5 /* ViewController.h */,
 				CD6A0F2B2141517A00A005F5 /* ViewController.m */,
+				CD0E2A9421427C63001BC07A /* PrefixHeader.pch */,
 				CD6A0EFE21414CD600A005F5 /* Main.storyboard */,
 				CD6A0F0121414CD700A005F5 /* Assets.xcassets */,
 				CD6A0F0321414CD700A005F5 /* LaunchScreen.storyboard */,
@@ -158,24 +242,25 @@
 			path = "Map-wms-DrawUITests";
 			sourceTree = "<group>";
 		};
-		CD6A0F2D2141518500A005F5 /* DrawTheTrajectory */ = {
+		CD6A0F2D2141518500A005F5 /* 根据坐标绘制轨迹 */ = {
 			isa = PBXGroup;
 			children = (
 				CD6A0F322141530700A005F5 /* DrawTheTrajectoryViewController.h */,
 				CD6A0F332141530700A005F5 /* DrawTheTrajectoryViewController.m */,
 			);
-			path = DrawTheTrajectory;
+			path = "根据坐标绘制轨迹";
 			sourceTree = "<group>";
 		};
-		CD6A0F2E214151E500A005F5 /* tools */ = {
+		CD6A0F2E214151E500A005F5 /* Resouce */ = {
 			isa = PBXGroup;
 			children = (
-				CD6A0F2F2141520D00A005F5 /* myButton.h */,
-				CD6A0F302141520D00A005F5 /* myButton.m */,
-				CD6A0F362141544B00A005F5 /* GetUrlSession.h */,
-				CD6A0F352141544B00A005F5 /* GetUrlSession.m */,
+				CD3199B821421E79005BA873 /* aesTools.h */,
+				CD3199B921421E79005BA873 /* aesTools.m */,
+				CD0E2A92214279E9001BC07A /* urldata.plist */,
+				CD3199A121421E32005BA873 /* aes */,
+				CD31999C2142111E005BA873 /* overall */,
 			);
-			path = tools;
+			path = Resouce;
 			sourceTree = "<group>";
 		};
 		E528F9500DC7E952B9DF881A /* Pods */ = {
@@ -292,6 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0E2A93214279E9001BC07A /* urldata.plist in Resources */,
 				CD6A0F0521414CD700A005F5 /* LaunchScreen.storyboard in Resources */,
 				CD6A0F0221414CD700A005F5 /* Assets.xcassets in Resources */,
 				CD6A0F0021414CD600A005F5 /* Main.storyboard in Resources */,
@@ -360,12 +446,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3199B121421E32005BA873 /* NSString+Base64.m in Sources */,
 				CD6A0F342141530700A005F5 /* DrawTheTrajectoryViewController.m in Sources */,
+				CD3199B721421E32005BA873 /* NSData+Base64.m in Sources */,
+				CD3199B221421E32005BA873 /* AESCrypt.m in Sources */,
+				CD31999B214210CA005BA873 /* WMS_testViewController.m in Sources */,
 				CD6A0F372141544B00A005F5 /* GetUrlSession.m in Sources */,
 				CD6A0F2C2141517A00A005F5 /* ViewController.m in Sources */,
+				CD3199B621421E32005BA873 /* NSData+CommonCrypto.m in Sources */,
+				CD31999F2142173B005BA873 /* WMSTileOverlayUtil.m in Sources */,
 				CD6A0F0821414CD700A005F5 /* main.m in Sources */,
+				CD3199B421421E32005BA873 /* CusMD5.m in Sources */,
+				CD3199B321421E32005BA873 /* NSData+AES.m in Sources */,
+				CD3199B521421E32005BA873 /* GTMBase64.m in Sources */,
 				CD6A0EFA21414CD600A005F5 /* AppDelegate.m in Sources */,
 				CD6A0F312141520D00A005F5 /* myButton.m in Sources */,
+				CD3199BA21421E79005BA873 /* aesTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

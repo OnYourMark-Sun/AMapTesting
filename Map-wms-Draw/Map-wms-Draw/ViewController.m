@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "myButton.h"
 #import "DrawTheTrajectoryViewController.h"
+#import "WMS_testViewController.h"
 #define viewF self.view.frame.size
 @interface ViewController ()
 
@@ -21,15 +22,19 @@
     // Do any additional setup after loading the view.
     
     
-    NSArray * array = @[@"绘制动画轨迹"];
+    NSArray * array = @[@"绘制动画轨迹",@"WMS-服务应用"];
     
     for (int i=0; i<array.count; i++) {
         
-        UIButton * bu = [myButton buttonWithType:UIButtonTypeCustom frame:CGRectMake(90, 200, viewF.width-180, 50) title:array[i] colors:[UIColor blueColor] andBackground:[UIColor lightGrayColor] tag:i+100 andBlock:^(myButton *button) {
+        UIButton * bu = [myButton buttonWithType:UIButtonTypeCustom frame:CGRectMake(90, 200+i*60, viewF.width-180, 50) title:array[i] colors:[UIColor blueColor] andBackground:[UIColor lightGrayColor] tag:i+100 andBlock:^(myButton *button) {
             
             switch (button.tag-100) {
                 case 0:
                     [self.navigationController pushViewController:[[DrawTheTrajectoryViewController alloc]init] animated:YES];
+                    
+                    break;
+                case 1:
+                    [self.navigationController pushViewController:[[WMS_testViewController alloc]init] animated:YES];
                     
                     break;
                     
