@@ -57,6 +57,7 @@
 		CD0E2A8C214276E4001BC07A /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		CD0E2A92214279E9001BC07A /* urldata.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = urldata.plist; sourceTree = "<group>"; };
 		CD0E2A9421427C63001BC07A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CD2FCC7B214649960090D3CB /* Map-wms-Draw.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Map-wms-Draw.entitlements"; sourceTree = "<group>"; };
 		CD319999214210CA005BA873 /* WMS_testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMS_testViewController.h; sourceTree = "<group>"; };
 		CD31999A214210CA005BA873 /* WMS_testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMS_testViewController.m; sourceTree = "<group>"; };
 		CD31999D2142173B005BA873 /* WMSTileOverlayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSTileOverlayUtil.m; sourceTree = "<group>"; };
@@ -207,6 +208,7 @@
 		CD6A0EF721414CD600A005F5 /* Map-wms-Draw */ = {
 			isa = PBXGroup;
 			children = (
+				CD2FCC7B214649960090D3CB /* Map-wms-Draw.entitlements */,
 				CD319998214210A1005BA873 /* WMS_服务应用 */,
 				CD6A0F2D2141518500A005F5 /* 根据坐标绘制轨迹 */,
 				CD6A0F2E214151E500A005F5 /* Resouce */,
@@ -341,6 +343,17 @@
 				TargetAttributes = {
 					CD6A0EF421414CD600A005F5 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					CD6A0F0C21414CD800A005F5 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -632,13 +645,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				DEVELOPMENT_TEAM = 32N9KU6JM2;
 				INFOPLIST_FILE = "Map-wms-Draw/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.Map-wms-Draw";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.airspace.www-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -650,13 +663,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5THF8E8SHG;
+				DEVELOPMENT_TEAM = 32N9KU6JM2;
 				INFOPLIST_FILE = "Map-wms-Draw/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.xu.Map-wms-Draw";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.airspace.www-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
