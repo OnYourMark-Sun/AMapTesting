@@ -12,7 +12,7 @@
 
 #import <iconv.h>
 
-//若key为空  内部数据，需要自己补充;
+//若key为空  内部数据，不易公开，需要自己补充;
 static NSString *  keys = @"";
 
 

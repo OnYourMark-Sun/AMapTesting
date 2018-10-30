@@ -12,20 +12,26 @@
 #define huizhiTimes 0.03
 #import "aesTools.h"
 #define WeakSelf  __weak typeof(self) weakSelf = self
+///居中点的个数
+#define IntheMiddlePoint 2
+///每次画线跳跃几个点
+#define jumpPoints 3
 @interface DrawTheTrajectoryViewController ()<MAMapViewDelegate>
 {
-    ///进行划线代码
+    ///进行划线跳跃点个数数值
     NSInteger huizhiNum;
+    
     MAPolyline *commonPolyline;
     BOOL endHuizhi;
     
     NSString * string2;
 }
 ////////划线
-///显示是个点
+    ///显示要居中的点
 @property(nonatomic,strong) NSMutableArray * TenPointArray ;
+    ///划线的所有点
 @property (nonatomic, strong) NSMutableArray * pointArray;
-@property (nonatomic, strong) NSMutableArray * lineArray;
+
 
 @property(nonatomic,strong)MAMapView *mapViewhome;
 @end
@@ -34,7 +40,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    /////////--------------没有密💊 请自行找数据 -------//////////////
+    --------------没有密💊 ，b内部数据 不宜公开，请自行找数据 -------//////////////
     // 解析plist 获取Url
     NSDictionary *dataDict = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"urldata" ofType:@"plist"]];
     //获取data 进行解密
@@ -50,7 +56,6 @@
     [self huizhiData];
     [self.mapViewhome setMapType:MAMapTypeStandard];
     self.pointArray=[NSMutableArray array];
-    self.lineArray=[NSMutableArray array];
     
 }
 #pragma mark Map
@@ -61,7 +66,7 @@
     self.mapViewhome.showsCompass= NO; // 设置成NO表示关闭指南针；YES表示显示指南针
     ///如果您需要进入地图就显示定位小蓝点，则需要下面两行代码
     self.mapViewhome.showsUserLocation = NO;
-    [self.mapViewhome setZoomLevel:12 animated:YES];
+    [self.mapViewhome setZoomLevel:16 animated:YES];
     self.mapViewhome.userTrackingMode = MAUserTrackingModeFollow;
     self.mapViewhome.delegate =self;
     ///地图需要v4.5.0及以上版本才必须要打开此选项（v4.5.0以下版本，需要手动配置info.plist）
@@ -118,7 +123,7 @@
 
 - (void)mapViewHUIZHI{
     
-    huizhiNum += 3;
+    huizhiNum += jumpPoints;
     if (huizhiNum>(_pointArray.count-4)) {
         huizhiNum =_pointArray.count-1;
         endHuizhi = YES;
@@ -144,7 +149,7 @@
     a1.coordinate = CLLocationCoordinate2DMake([huizhiDic2[@"latitude"] doubleValue], [ huizhiDic2[@"longitude"] doubleValue]);
     
     //划线 显示进行中的后3个点
-    if (_TenPointArray.count<3) {
+    if (_TenPointArray.count<IntheMiddlePoint) {
         [_TenPointArray addObject:a1];
     }else{
         [_TenPointArray replaceObjectAtIndex:0 withObject:a1];
@@ -153,15 +158,16 @@
     
     //设置地图中心位置
     if(endHuizhi){
+        //200, 100, 200, 100
         [self.mapViewhome showOverlays:@[commonPolyline] edgePadding:UIEdgeInsetsMake(200, 100, 200, 100) animated:YES];
         huizhiNum = 0;
     }else{
         
-        if (huizhiNum%9==0) {
-            //            [self.mapViewhome showOverlays:@[commonPolyline] animated:YES];
+//        if (huizhiNum%9==0) {
+       //260, 150, 200, 100
             [self.mapViewhome showAnnotations:_TenPointArray edgePadding:UIEdgeInsetsMake(260, 150, 200, 100) animated:YES];
             
-        }
+//        }
         
     }
     
