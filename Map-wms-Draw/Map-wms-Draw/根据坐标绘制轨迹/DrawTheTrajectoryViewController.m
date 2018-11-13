@@ -26,6 +26,9 @@
     
     NSString * string2;
 }
+
+///轨迹线的样式  0:普通带颜色的线  1:自定义图片的线
+@property(nonatomic,assign) NSInteger linesType;
 ////////划线
     ///显示要居中的点
 @property(nonatomic,strong) NSMutableArray * TenPointArray ;
@@ -40,15 +43,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    --------------没有密💊 ，b内部数据 不宜公开，请自行找数据 -------//////////////
+    //--------------没有密💊 ，b内部数据 不宜公开，请自行找数据 -------//////////////
     // 解析plist 获取Url
     NSDictionary *dataDict = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"urldata" ofType:@"plist"]];
     //获取data 进行解密
     string2 = [aesTools AESToString:dataDict[@"URLDraw"]];
     //---------------------------------------------------------------------------------
-    
-    
-    // Do any additional setup after loading the view.
+
+    ///线的类型
+    _linesType = 0;
     
     //   加载地图
     [self setMap];
@@ -189,14 +192,19 @@
             
         }
         MAPolylineRenderer *polylineRenderer = [[MAPolylineRenderer alloc] initWithPolyline:overlay];
-        
-        polylineRenderer.lineWidth= 3.f;
-        
+        polylineRenderer.lineWidth= 8.f;
         polylineRenderer.strokeColor= [UIColor greenColor];
-        
         polylineRenderer.lineJoinType = kMALineJoinRound;
-        
         polylineRenderer.lineCapType= kMALineCapRound;
+        
+        if (_linesType==0) {
+            //普通颜色的线
+            
+        }else if (_linesType == 1){
+            //线为图片的线
+            polylineRenderer.strokeImage = [UIImage imageNamed:@"jiantouD"];
+            
+        }
         
         return polylineRenderer;
         

@@ -10,13 +10,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Map-wms-Draw/&#x6839;&#x636e;&#x5750;&#x6807;&#x7ed8;&#x5236;&#x8f68;&#x8ff9;/DrawTheTrajectoryViewController.m"
-            timestampString = "562563828.463248"
+            timestampString = "563785735.117166"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
             landmarkName = "-mapViewHUIZHI"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Map-wms-Draw/&#x6839;&#x636e;&#x5750;&#x6807;&#x7ed8;&#x5236;&#x8f68;&#x8ff9;/DrawTheTrajectoryViewController.m"
+            timestampString = "563785735.117626"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-huizhiData"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DrawTheTrajectoryViewController huizhiData]"
+                  moduleName = "Map-wms-Draw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushiyou/Documents/GitHub/AMapTesting/Map-wms-Draw/Map-wms-Draw/%E6%A0%B9%E6%8D%AE%E5%9D%90%E6%A0%87%E7%BB%98%E5%88%B6%E8%BD%A8%E8%BF%B9/DrawTheTrajectoryViewController.m"
+                  timestampString = "563783833.21942"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__45-[DrawTheTrajectoryViewController huizhiData]_block_invoke"
+                  moduleName = "Map-wms-Draw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushiyou/Documents/GitHub/AMapTesting/Map-wms-Draw/Map-wms-Draw/%E6%A0%B9%E6%8D%AE%E5%9D%90%E6%A0%87%E7%BB%98%E5%88%B6%E8%BD%A8%E8%BF%B9/DrawTheTrajectoryViewController.m"
+                  timestampString = "563783833.221747"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "Map-wms-Draw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushiyou/Documents/GitHub/AMapTesting/Map-wms-Draw/Map-wms-Draw/%E6%A0%B9%E6%8D%AE%E5%9D%90%E6%A0%87%E7%BB%98%E5%88%B6%E8%BD%A8%E8%BF%B9/DrawTheTrajectoryViewController.m"
+                  timestampString = "563783833.223909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

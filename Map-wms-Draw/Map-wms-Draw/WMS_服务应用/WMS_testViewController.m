@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //////////        没有密💊 请自行找数据     ///////////////
+   //----       没有密💊内部数据，不宜公开 请自行找数据     ///////////////
     // 解析plist 获取Url
     NSDictionary *dataDict = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"urldata" ofType:@"plist"]];
     //获取data 进行解密
